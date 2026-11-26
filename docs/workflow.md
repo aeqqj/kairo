@@ -4,7 +4,7 @@ Pick one sub-issue from the [GitHub issue list](https://github.com/aeqqj/kairo/i
 
 ## Pick the work
 
-- Give the agent the issue URL and the [project spec](project-spec.md). Ask it to read any local `AGENTS.md` as well. Use the GitHub number for branch names and PR links. For example, **01 Workload editor and controls** is [#53](https://github.com/aeqqj/kairo/issues/53).
+- Give the agent the issue URL, the [project spec](project-spec.md), and the [architecture guide](architecture.md). Ask it to read any local `AGENTS.md` as well. Use the GitHub number for branch names and PR links. For example, **01 Workload editor and controls** is [#53](https://github.com/aeqqj/kairo/issues/53).
 - Use the issue's starting fixture or stub so you can build while other tickets are in progress. If a change affects an interface another teammate uses, include the proposed change in the draft pull request.
 - File independent follow-up work under its feature parent. Say what to build, what data to start with, and what a reviewer can check.
 
@@ -55,8 +55,8 @@ Replace the issue link and branch name. For a local coding task, end the prompt 
 
 ```text
 Implement https://github.com/aeqqj/kairo/issues/53.
-Read docs/workflow.md, docs/project-spec.md, and any local
-AGENTS.md. Read the issue's scope and acceptance checks.
+Read docs/workflow.md, docs/architecture.md, docs/project-spec.md,
+and any local AGENTS.md. Read the issue's scope and acceptance checks.
 Start from origin/main on issue-53-workload-editor. Use a separate
 worktree if there are unrelated local changes. Build against the issue's
 fixture or stub and keep edits within its scope.
